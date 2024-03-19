@@ -49037,3 +49037,2487 @@ Emitted 'error' event on Connection instance at:
   code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
   fatal: true
 }
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 2
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 2
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 0 Expected: 3
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home11/amrsamy/chat_app/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home11/amrsamy/chat_app/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at Socket.emit (node:events:513:28) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
