@@ -19,9 +19,9 @@ MySQLDB
 
 - [Installation](#installation)
 - [Usage](#Usage)
-- [Technology Stack](#Technology Stack)
+- [Technology_Stack](#Technology_Stack)
 - [Contributing](#contributing)
-- [App interface](#App interface)
+- [App_interface](#App_interface)
 - [Author](#Author)
 
 ## Installation
@@ -51,7 +51,7 @@ Register a new user name account and chat room.
 Log in with your credentials.
 Start chatting with other users in real-time.
 
-## Technology Stack
+## Technology_Stack
 Frontend: HTML, CSS, JavaScript
 Backend: Node.js, Express
 Real-Time Communication: Socket.io
@@ -68,9 +68,9 @@ If you'd like to contribute to the project, follow these steps:
 4-Push to the Branch (git push origin feature/AmazingFeature)
 5-Open a Pull Request
 
-## App interface .
-![](chat 0.png)
-![](chat 1.png)
+## App_interface .
+![Chat App Interface](/chat0.png "Chat App Interface")
+![Chat App Interface](/chat1.png "Chat App Interface")
 
 ## Author
 For more detailed information, please refer to me [Amr Samy](AUTHORS).
