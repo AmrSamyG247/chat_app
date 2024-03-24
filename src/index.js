@@ -13,6 +13,10 @@ const io = socketio(server)
 const port = process.env.PORT || 3000
 const publicDirectoryPath = path.join(__dirname, '../public')
 
+//update profile image library
+const fileUpload = require('express-fileupload');
+app.use(fileUpload());
+
 app.use(express.static(publicDirectoryPath))
 
 io.on('connection', (socket) => {
@@ -102,6 +106,33 @@ io.on('connection', (socket) => {
             users: getUsersInRoom(user.room)
         });
     }
+});
+//update profile image 
+app.post('/update-profile-picture', (req, res) => {
+    if (!req.files || Object.keys(req.files).length === 0) {
+        return res.status(400).send('No files were uploaded.');
+    }
+
+    let profilePicture = req.files.profilePicture;
+    let username = req.body.username; // Make sure the username or user ID is sent with the form data
+
+    // Use a unique identifier for the filename to avoid conflicts
+    let filename = username + '-' + Date.now() + path.extname(profilePicture.name);
+
+    // Save the file to your server's file system or preferred storage
+    profilePicture.mv(path.join(__dirname, '/chat_app/upload/', filename), function(err) {
+        if (err)
+            return res.status(500).send(err);
+
+        // Update user's profile picture path in the database
+        db.query('UPDATE chat_users SET profile_picture = ? WHERE username = ?', [filename, username], (error, results) => {
+            if (error) {
+                console.error('Error updating the database:', error);
+                return res.status(500).send('Database update failed');
+            }
+            res.send('Profile picture updated successfully');
+        });
+    });
 });
 
 })

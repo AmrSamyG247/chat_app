@@ -80,13 +80,13 @@
   <ul class="users">
     {{#users}}
     <li>
-      <img src="/profile-pictures/{{profilePicture}}" alt="{{username}}"> <!-- Display user profile picture -->
+      <img src="/upload/{{profilePicture}}" alt="{{username}}"> <!-- Display user profile picture -->
       <span>{{username}}</span> <!-- Display username -->
     </li>
     {{/users}}
   </ul>
   <div id="profile"><hr style="border: none; height: 0.3rem; background-color: #fff; margin-top: 1rem;margin-bottom: 1rem;">
-    
+    <input type="hidden" name="username" value="{{username}}" />
     <input type="file" id="profile-picture" accept="image/*" />
     <button id="update-profile-picture">Update Profile Picture</button></div>
 </script>

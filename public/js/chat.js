@@ -140,3 +140,28 @@ socket.emit("join", { username, room }, (error) => {
     location.href = "/";
   }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const updateProfilePictureButton = document.getElementById('update-profile-picture');
+    const profilePictureInput = document.getElementById('profile-picture');
+
+    if (updateProfilePictureButton && profilePictureInput) {
+        updateProfilePictureButton.addEventListener('click', () => {
+            const file = profilePictureInput.files[0];
+            const formData = new FormData();
+            formData.append('profilePicture', file);
+            formData.append('username', '{{username}}'); // Replace {{username}} with actual username
+
+            fetch('/update-profile-picture', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                // Handle response
+            })
+            .catch(error => {
+                console.error('Error updating profile picture:', error);
+            });
+        });
+    }
+});
