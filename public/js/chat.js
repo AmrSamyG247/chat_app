@@ -153,19 +153,15 @@ document.addEventListener('DOMContentLoaded', function() {
             const file = profilePictureInput.files[0];
             const formData = new FormData();
             formData.append('profilePicture', file);
-            formData.append('username', username); // Pass the username along with the form data
+            formData.append('username', username); // Use the actual username instead of '{{username}}'
 
             fetch('/update-profile-picture', {
                 method: 'POST',
                 body: formData
             })
             .then(response => {
-                if (response.ok) {
-                    console.log('Profile picture updated successfully');
-                    // Optionally, you can handle UI updates here
-                } else {
-                    console.error('Error updating profile picture:', response.statusText);
-                }
+                // Handle response
+                location.reload(); // Reload the page to update the profile picture
             })
             .catch(error => {
                 console.error('Error updating profile picture:', error);

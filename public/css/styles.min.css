@@ -3,3 +3,16 @@
   margin-top: -10rem;
   color: white;
 }
+
+.profile {
+  height: 20vh;
+  color: #fff;
+  background: #333744;
+  width: 225px;
+}
+#profile-picture {
+  width: 225px;
+}
+#update-profile-picture {
+  width: 100%;
+}
