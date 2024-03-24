@@ -10,18 +10,16 @@
     <div class="chat">
     
      <div class="chat_side">
-      
+       
+      <div id="sidebar" class="chat__sidebar">
+               </div>
          <div id="profile" class="profile">
+              <hr style="border: none; height: 0.3rem; background-color: #fff; margin-top: 1rem;margin-bottom: 1rem;">
           <input type="hidden" name="username" value="{{username}}" />
              <input type="file" id="profile-picture" accept="image/*" name="profilePicture">
              <button id="update-profile-picture">Update Profile Picture</button>
-                <hr style="border: none; height: 0.3rem; background-color: #fff; margin-top: 1rem;margin-bottom: 1rem;">
-               </div>
-      
-      <div id="sidebar" class="chat__sidebar">
-               </div>
-      
-       </div>
+                              </div>
+            </div>
 
       <div class="chat__main">
         <div id="messages" class="chat__messages"></div>
