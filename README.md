@@ -37,7 +37,9 @@ To set up and run the chat app locally, follow these steps:
    cd chat_app
 
 3. Install NPM packages:
-   ```bash npm install
+
+   ```bash 
+   npm install
   
 4. Open your browser and go to http://localhost:3000.
  - you can redirect it for domain debending on webserver you are using .
