@@ -114,7 +114,7 @@ app.post('/update-profile-picture', (req, res) => {
     }
 
     let profilePicture = req.files.profilePicture;
-    let username = req.body.username; // Make sure the username or user ID is sent with the form data
+    let username = req.body.username; // Retrieve the username from the form data
 
     // Use a unique identifier for the filename to avoid conflicts
     let filename = username + '-' + Date.now() + path.extname(profilePicture.name);
@@ -134,6 +134,8 @@ app.post('/update-profile-picture', (req, res) => {
         });
     });
 });
+
+
 
 })
 
