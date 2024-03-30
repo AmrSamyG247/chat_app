@@ -109,23 +109,22 @@ io.on('connection', (socket) => {
 });
 //update profile image 
 app.post('/update-profile-picture', (req, res) => {
-    if (!req.files || Object.keys(req.files).length === 0) {
-        return res.status(400).send('No files were uploaded.');
+    if (!req.files || !req.files.profilePicture || !req.body.username) {
+        return res.status(400).send('Username or profile picture is missing.');
     }
 
-    let profilePicture = req.files.profilePicture;
-    let username = req.body.username; // Retrieve the username from the form data
+    const profilePicture = req.files.profilePicture;
+    const username = req.body.username;
+    const filename = `${username}-${Date.now()}${path.extname(profilePicture.name)}`;
 
-    // Use a unique identifier for the filename to avoid conflicts
-    let filename = username + '-' + Date.now() + path.extname(profilePicture.name);
-
-    // Save the file to your server's file system or preferred storage
-    profilePicture.mv(path.join(__dirname, '/chat_app/upload/', filename), function(err) {
-        if (err)
-            return res.status(500).send(err);
+    profilePicture.mv(path.join(__dirname, '/chat_app/upload/', filename), (err) => {
+        if (err) {
+            console.error('Error uploading profile picture:', err);
+            return res.status(500).send('Failed to upload profile picture.');
+        }
 
         // Update user's profile picture path in the database
-        db.query('UPDATE chat_users SET profile_picture = ? WHERE username = ?', [filename, username], (error, results) => {
+        db.query('UPDATE user_images SET profile_picture = ? WHERE username = ?', [filename, username], (error, results) => {
             if (error) {
                 console.error('Error updating the database:', error);
                 return res.status(500).send('Database update failed');
