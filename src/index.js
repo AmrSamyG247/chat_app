@@ -108,7 +108,6 @@ io.on('connection', (socket) => {
     }
 });
 //update profile image 
-// Update Profile Picture Route
 app.post('/update-profile-picture', (req, res) => {
     if (!req.files || !req.files.profilePicture || Object.keys(req.files).length === 0) {
         return res.status(400).send('No files were uploaded.');
