@@ -13,12 +13,14 @@
        
       <div id="sidebar" class="chat__sidebar">
                </div>
+        <form id="message-form" enctype="multipart/form-data">
+                 <!-- Form fields -->
          <div id="profile" class="profile">
               <hr style="border: none; height: 0.3rem; background-color: #fff; margin-top: 1rem;margin-bottom: 1rem;">
           <input type="hidden" name="username" value="{{username}}" />
              <input type="file" id="profile-picture" accept="image/*" name="profilePicture">
              <button id="update-profile-picture">Update Profile Picture</button>
-                              </div>
+                                                  </div>  </form>
             </div>
 
       <div class="chat__main">
@@ -92,7 +94,7 @@
   <ul class="users">
   {{#users}}
   <li>
-    <img src="/upload/{{profilePicture}}" alt="{{username}}"> <!-- Use correct path for profile picture -->
+    <img src="../public/upload/{{profilePicture}}" alt="{{username}}"> <!-- Use correct path for profile picture -->
     <span>{{username}}</span> <!-- Display username -->
   </li>
   {{/users}}
