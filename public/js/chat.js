@@ -148,24 +148,39 @@ document.addEventListener('DOMContentLoaded', function() {
     const updateProfilePictureButton = document.getElementById('update-profile-picture');
     const profilePictureInput = document.getElementById('profile-picture');
 
-    if (updateProfilePictureButton && profilePictureInput) {
-        updateProfilePictureButton.addEventListener('click', () => {
-            const file = profilePictureInput.files[0];
-            const formData = new FormData();
-            formData.append('profilePicture', file);
-            formData.append('username', username); // Use the actual username instead of '{{username}}'
+   // Update Profile Picture Button Event Listener
+if (updateProfilePictureButton && profilePictureInput) {
+    updateProfilePictureButton.addEventListener('click', async () => {
+        updateProfilePictureButton.disabled = true;
 
-            fetch('/update-profile-picture', {
+        const file = profilePictureInput.files[0];
+        if (!file) {
+            updateProfilePictureButton.disabled = false;
+            return;
+        }
+
+        const formData = new FormData();
+        formData.append('profilePicture', file);
+        formData.append('username', username);
+
+        try {
+            const response = await fetch('/update-profile-picture', {
                 method: 'POST',
                 body: formData
-            })
-            .then(response => {
-                // Handle response
-                location.reload(); // Reload the page to update the profile picture
-            })
-            .catch(error => {
-                console.error('Error updating profile picture:', error);
             });
-        });
-    }
+
+            if (!response.ok) {
+                throw new Error('Network response was not ok.');
+            }
+
+            const data = await response.text();
+            console.log(data); // Log response from server
+            location.reload(); // Reload the page to update the profile picture
+        } catch (error) {
+            console.error('Error updating profile picture:', error);
+            updateProfilePictureButton.disabled = false;
+        }
+    });
+}
+
 });

@@ -108,23 +108,26 @@ io.on('connection', (socket) => {
     }
 });
 //update profile image 
+// Update Profile Picture Route
 app.post('/update-profile-picture', (req, res) => {
-    if (!req.files || !req.files.profilePicture || !req.body.username) {
-        return res.status(400).send('Username or profile picture is missing.');
+    if (!req.files || !req.files.profilePicture || Object.keys(req.files).length === 0) {
+        return res.status(400).send('No files were uploaded.');
     }
 
     const profilePicture = req.files.profilePicture;
     const username = req.body.username;
+
+    // Use a unique filename to avoid conflicts
     const filename = `${username}-${Date.now()}${path.extname(profilePicture.name)}`;
 
-    profilePicture.mv(path.join(__dirname, '/chat_app/upload/', filename), (err) => {
+    // Save the file to the server
+    profilePicture.mv(path.join(__dirname, '../public/upload/', filename), function(err) {
         if (err) {
-            console.error('Error uploading profile picture:', err);
-            return res.status(500).send('Failed to upload profile picture.');
+            return res.status(500).send(err);
         }
 
         // Update user's profile picture path in the database
-        db.query('UPDATE user_images SET profile_picture = ? WHERE username = ?', [filename, username], (error, results) => {
+        db.query('UPDATE user_images SET filename = ? WHERE username = ?', [filename, username], (error, results) => {
             if (error) {
                 console.error('Error updating the database:', error);
                 return res.status(500).send('Database update failed');
@@ -133,6 +136,7 @@ app.post('/update-profile-picture', (req, res) => {
         });
     });
 });
+
 
 
 
