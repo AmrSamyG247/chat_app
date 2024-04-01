@@ -122,15 +122,17 @@ app.post('/update-profile-picture', (req, res) => {
     // Save the file to the server
     profilePicture.mv(path.join(__dirname, '../public/upload/', filename), function(err) {
         if (err) {
+            console.error('Error saving profile picture:', err);
             return res.status(500).send(err);
         }
 
-        // Update user's profile picture path in the database
-        db.query('UPDATE user_images SET filename = ? WHERE username = ?', [filename, username], (error, results) => {
+        // Insert picture record into the database
+        db.query('INSERT INTO user_images (username, filename) VALUES (?, ?)', [username, filename], (error, results) => {
             if (error) {
-                console.error('Error updating the database:', error);
+                console.error('Error inserting picture record into database:', error);
                 return res.status(500).send('Database update failed');
             }
+            console.log('Profile picture record inserted into database');
             res.send('Profile picture updated successfully');
         });
     });
